@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #a54fdf;
+}
+/* @media (max-width: 500px) {
+    .a {
+        background-color: aqua;
+    } 
+    .a h1{
+        
+        color: rgb(219, 133, 20);
+        font-size: 2rem;
+    } 
+}
+.a {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(17, 0, 255);
+    font-size: 0.5rem;
+}  */
+header {
+    height: 655px;
+    width: 100%;
+    background-color: #916bb4;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 50px; */
+}
+
+@media (min-width: 200px) and (max-width: 379px) {
+    header {
+        height: 700px;
+        overflow: hidden;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 425px) {
+    header {
+        height: 850px;
+        overflow: hidden;
+    }
+    .form {
+        width: 100%;
+    }
+}
+@media (min-width: 426px) and (max-width: 800px) {
+    header {
+        height: 650px;
+        overflow: hidden;
+    }
+    .form {
+        width: 100%;
+    }
+}
+@media (min-width: 802px) and (max-width: 2000px) {
+    header {
+        height: 1100px;
+        overflow: hidden;
+    }
+    .form {
+        width: 100%;
+    }
+}
+.forme {
+    height: 530px;
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px rgb(100, 100, 100);
+}
+.logo {
+    height: 100px;
+    width: 100%;
+}
+.logo1 {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: name 2s infinite;
+}
+
+@keyframes name1 {
+    0% {
+        /* transform: translateX(200px) translateY(200px); */
+        /* transform: rotateY(80deg); */
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.plateform {
+    height: 300px;
+    width: 100%;
+    
+}
+.tire1 {
+    height: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.image {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.vraiIm {
+    animation: am 2s ease;
+}
+@keyframes am {
+    0% {
+        transform: translateY(150px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.tire2 {
+    height: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.google {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+li {
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+li a .google1 {
+    height: 60px;
+    width: 200px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    display: flex;
+}
+.goo1 {
+    height: 60px;
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 2px solid #a54fdf;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-left: 2px solid #a54fdf;
+    border-bottom: 2px solid #a54fdf;
+    animation: goo 4s ease;
+}
+@keyframes goo {
+    0%{
+        transform: rotateY(45deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+.goo2 {
+    border-top: 2px solid #a54fdf;
+    border-bottom: 2px solid #a54fdf;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.goo2 p {
+    animation: namee 2s ease;
+}
+@keyframes namee {
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.newcompte {
+    height: 100px;
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.newcompte p{
+    padding-right: 5px;
+}
+.newcompte a{
+    font-weight: bolder;
+}
+.annim {
+    height: 200px ;
+
+}
